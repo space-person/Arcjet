@@ -1,6 +1,6 @@
-#include <Hazel.h>
+#include <Arcjet.h>
 
-class Sandbox : public Hazel::Application
+class Sandbox : public Arcjet::Application
 {
 public:
 	Sandbox()
@@ -12,7 +12,7 @@ public:
 	}
 };
 
-Hazel::Application* Hazel::CreateApplication()
+Arcjet::Application* Arcjet::CreateApplication()
 {
 	return new Sandbox();
 }
