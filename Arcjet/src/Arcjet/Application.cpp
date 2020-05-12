@@ -1,3 +1,4 @@
+#include "ajpch.h"
 #include "Application.h"
 
 #include "Arcjet/Events/ApplicationEvent.h"

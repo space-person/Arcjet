@@ -19,6 +19,9 @@ project "Arcjet"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "ajpch.h"
+	pchsource "Arcjet/src/ajpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

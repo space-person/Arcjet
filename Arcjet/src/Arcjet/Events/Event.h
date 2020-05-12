@@ -2,9 +2,6 @@
 
 #include "Arcjet/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Arcjet
 {
 	// events are currently "blocking" type events, might be buffered in the future

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Arcjet
 {
 	class ARCJET_API MouseMovedEvent : public Event
