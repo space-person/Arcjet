@@ -61,7 +61,7 @@ namespace Arcjet
 		int m_Button;
 	};
 
-	class ARC_JET_API MouseButtonPressedEvent : public MouseButtonEvent
+	class ARCJET_API MouseButtonPressedEvent : public MouseButtonEvent
 	{
 	public:
 		MouseButtonPressedEvent(int button)

@@ -1,0 +1,6 @@
+[submodule "Arcjet/vendor/spdlog"]
+	path = Arcjet/vendor/spdlog
+	url = httpsL//github.com/gabime/spdlog
+[submodule "ArcJet/vendor/GLFW"]
+	path = ArcJet/vendor/GLFW
+	url = https://github.com/TheCherno/glfw

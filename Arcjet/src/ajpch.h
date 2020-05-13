@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Arcjet/Log.h"
+
 #ifdef AJ_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif

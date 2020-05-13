@@ -1,5 +1,6 @@
 #pragma once
 
+#include "ajpch.h"
 #include "Arcjet/Core.h"
 
 namespace Arcjet
