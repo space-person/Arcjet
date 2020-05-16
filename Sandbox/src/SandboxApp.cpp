@@ -10,7 +10,7 @@ public:
 
 	void OnUpdate() override
 	{
-		AJ_INFO("ExampleLayer::Update");
+		//AJ_INFO("ExampleLayer::Update");
 	}
 
 	void OnEvent(Arcjet::Event& event) override
