@@ -4,3 +4,6 @@
 [submodule "ArcJet/vendor/GLFW"]
 	path = ArcJet/vendor/GLFW
 	url = https://github.com/TheCherno/glfw
+[submodule "Arcjet/vendor/imgui"]
+	path = Arcjet/vendor/imgui
+	url = https://github.com/TheCherno/imgui
