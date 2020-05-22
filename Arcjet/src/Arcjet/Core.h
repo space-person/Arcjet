@@ -10,6 +10,10 @@
 	#error Arcjet only supports Windows !
 #endif
 
+#ifdef AJ_DEBUG
+	#define AJ_ENABLE_ASSERTS
+#endif
+
 #ifdef AJ_ENABLE_ASSERTS
 	#define AJ_ASSERT(x, ...) { if(!(x)) { AJ_ERROR("Assertion failed: {0}", __VA_ARGS__); __debugbreak(); } }
 	#define AJ_CORE_ASSERT(x, ...) { if(!(x)) { AJ_CORE_ERROR("Assertion failed: {0}", __VA_ARGS__); __debugbreak(); } }

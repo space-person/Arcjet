@@ -65,10 +65,17 @@
       <Filter>Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\ajpch.h" />
+    <ClInclude Include="src\Arcjet\Input.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h" />
+    <ClInclude Include="src\Arcjet\KeyCodes.h" />
+    <ClInclude Include="src\Arcjet\MouseButtonCodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Arcjet\Application.cpp">
       <Filter>Arcjet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arcjet\ImGui\ImGuiLayer.cpp">
+      <Filter>Arcjet\ImGui</Filter>
     </ClCompile>
     <ClCompile Include="src\Arcjet\Layer.cpp">
       <Filter>Arcjet</Filter>
@@ -86,8 +93,6 @@
       <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\ajpch.cpp" />
-    <ClCompile Include="src\Arcjet\ImGui\ImGuiLayer.cpp">
-      <Filter>Arcjet\ImGui</Filter>
-    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowInput.cpp" />
   </ItemGroup>
 </Project>
